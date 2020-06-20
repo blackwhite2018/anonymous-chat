@@ -1,0 +1,22 @@
+.history {
+    display: flex;
+    flex-direction: column;
+}
+
+.message,
+.my-message {
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.message__content {
+    text-align: left;
+}
+
+.my-message {
+    align-self: flex-end;
+}
+
+.my-message__content {
+    text-align: right;
+}
